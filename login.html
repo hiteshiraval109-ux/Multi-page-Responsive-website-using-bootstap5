@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--bootstrap css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand fw-bold text-primary">MYSITE</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--login-->
+    <main class="d-flex align-items-center justify-content-center min-vh-100" style="padding-top: 70px;">
+        <div class="card shadow-lg p-4" style="min-width: 350px;">
+            <h1 class="h3 mb-4 text-center fw-bold">Login</h1>
+
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-control" placeholder="Your email">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" placeholder="Enter Your Password">
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+
+            <p class="text-center mt-3 mb-0">
+                Don’t have an account? 
+                <a href="register.html" class="text-decoration-none text-primary">Register</a>
+            </p>
+        </div>
+    </main>
+
+    <!--footer-->
+    <footer class="bg-primary text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 WEB|CRAFT, All rights reserved.</p>
+    </footer>
+
+    <!--bootstrap js link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
